@@ -3,14 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock Paper Scissors game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/99dfb5da93.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!--
-        <input type="text" id="input" />
-        <button id="button" onclick="showResults()">Click here</button>
-        <p id="result">Result:</p>
-    -->
+    <div class="content">
+      <div class="buttons">
+        <button id="rock">
+          Rock <i class="fa-solid fa-hand-back-fist"></i>
+        </button>
+        <button id="paper">Paper <i class="fa-solid fa-hand"></i></button>
+        <button id="scissors">
+          Scissors <i class="fa-solid fa-hand-scissors"></i>
+        </button>
+      </div>
+      <div id="result"></div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
